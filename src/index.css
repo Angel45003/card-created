@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  margin: 0;
+  padding: 0;
+  background: rgb(122,44,44);
+background: linear-gradient(0deg, rgba(122,44,44,1) 12%, #ff2b2b 81%);
+background-size: 100% 100vh; background-repeat: no-repeat;
+color: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+font-family: sans-serif;
+}
